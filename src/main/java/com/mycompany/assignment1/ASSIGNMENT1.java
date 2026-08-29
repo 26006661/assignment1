@@ -17,7 +17,16 @@ import java.util.Scanner;
 
 
 // 1. PRODUCT CLASS
+/* This class stores all the details for one product 
+ such as its name, price, stock, and code.
 
+   Variables to save all the product information 
+
+     Constructor used to create a new product object 
+
+    Getters and Setters to view or update product details 
+
+     Prints all the details of this product on the screen */
 class Product {
 
     private String productCode;
@@ -109,7 +118,14 @@ class Product {
 
 
 // 2. REPORT DATA CLASS
+/* This class calculates report totals like the total number
+ of products, total inventory value, and average price
 
+   *Constructor that receives the product list and calculates summary totals 
+
+   *Loops through all products to add up prices and calculate the average 
+
+ * Prints the complete report with individual items and final calculated totals */
 class ReportData {
 
     private List<Product> products;
@@ -193,7 +209,27 @@ class ReportData {
 
 
 // 3. PRODUCTS MANAGEMENT CLASS
+ /*Dynamic list used to store all products in RAM memory 
+    
+    *Displays the main menu options and reads user choice between 1 and 6 
 
+    * Prompts user for product information and saves it to the list 
+
+     *Adds a newly created product into our memory list 
+
+     *Displays category options (1-5) and checks for a valid choice 
+
+     *Sets warranty to 6 months if 1 is entered, otherwise defaults to 2 years 
+
+     *Searches for a product using its code and displays its information if found 
+
+    *Asks for a product code and removes the item from memory if confirmed with 'y' 
+
+     *Allows the user to update warranty, price, or stock levels for a product 
+
+     *Generates and displays the final product inventory report 
+
+     *Prints a goodbye message when the user exits the application */
 class Products {
 
     private List<Product> productList;
@@ -448,7 +484,10 @@ class Products {
 }
 
 // 4. MAIN PUBLIC CLASS (MUST MATCH FILE NAME)
+/* The entry point of the application. Starts the main loop
+ * and keeps the menu running until the user decides to exit.
 
+ *Starts the application loop and routes menu selections to Products methods */
 public class ASSIGNMENT1 {
 
     public static void main(String[] args) {
