@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Extreme IT Products** is a local IT hardware supplier. This application was built for their new outlet to help staff **capture, search, update, delete, and report** on the products they sell. 
 
@@ -16,7 +16,7 @@ It is a fully menu-driven console application designed using Object-Oriented Pro
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Interactive Navigation:** Displays a welcome banner and a clear, user-friendly main menu.
 * **Product Capture:** Captures product details including:
@@ -39,7 +39,7 @@ It is a fully menu-driven console application designed using Object-Oriented Pro
 
 ---
 
-## 🏗️ Class Structure
+## Class Structure
 
 The program is structured into dedicated classes, each maintaining clear separation of responsibilities:
 
